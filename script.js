@@ -4,6 +4,18 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('loader').style.display = 'none';
   });
 
+  //
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector("nav ul");
+
+    hamburger.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+});
+
+
+
   // Smooth Scroll
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
