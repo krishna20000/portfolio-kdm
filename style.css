@@ -97,6 +97,10 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+skill-logo{
+  width: 50%;
+}
+
 /* Small Screens */
 @media (max-width: 768px) {
   nav {
