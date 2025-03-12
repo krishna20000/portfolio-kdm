@@ -19,6 +19,10 @@ body.dark-mode {
   color: #f4f4f9;
 }
 
+.user-logo{
+  width: 27px;
+}
+
 header {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: #fff;
@@ -88,6 +92,8 @@ nav ul li a:hover {
 }
 
 /* 📱 Responsive Design (Hamburger Menu) */
+
+
 .hamburger {
   display: none; /* Hide on larger screens */
   background: none;
@@ -241,6 +247,8 @@ skill-logo{
 #hero .btn:hover {
   background: #ffcc00;
 }
+
+
 
 /* Sections */
 section {
