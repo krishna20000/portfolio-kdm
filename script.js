@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('load', function () {
       document.getElementById('loader').style.display = 'none';
   });
-
-  //
   document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector("nav ul");
