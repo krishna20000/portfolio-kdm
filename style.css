@@ -328,6 +328,12 @@ section h2 {
   color: #6a11cb;
 }
 
+.skill-card img{
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #6a11cb;
+}
+
 /* Projects Section */
 .projects-grid {
   display: grid;

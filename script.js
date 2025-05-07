@@ -43,11 +43,16 @@ document.addEventListener('DOMContentLoaded', function () {
   const themeToggle = document.getElementById('theme-toggle');
   const body = document.body;
 
+  // ✅ Enable dark mode by default on page load
+  body.classList.add('dark-mode');
+  themeToggle.innerHTML = '<i class="fas fa-sun"></i>'; // Icon for light mode toggle
+
+  // Toggle dark mode on button click
   themeToggle.addEventListener('click', function () {
       body.classList.toggle('dark-mode');
-      themeToggle.innerHTML = body.classList.contains('dark-mode') ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      themeToggle.innerHTML = body.classList.contains('dark-mode')
+          ? '<i class="fas fa-sun"></i>'
+          : '<i class="fas fa-moon"></i>';
   });
-
-
 });
 
